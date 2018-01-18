@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RoxanaCS/cardify/issues"
   },
-  "homepage": "https://github.com/RoxanaCS/cardify#readme"
+  "homepage": "https://github.com/RoxanaCS/cardify#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
