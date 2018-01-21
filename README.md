@@ -3,7 +3,6 @@
 
 El reto consiste en crear una librería o plugin de jQuery que permita mostrar información al pasar el cursor sobre ella (similar al efecto hover). Lo anterior será ejecutado, en principio, mediante la utilizacion de una clase que permita elegir al usuario todas las imágenes en las que requiera aplicar este efecto.
 
-
 ## Metodología de trabajo
 
 1. Metodología Scrum: Metodología Agile para coordinar el proyecto, basada en un tablero en donde se detalla la lista de tareas, cuáles están en progreso y cuáles han sido completadas. Contempla dailys y retropectivas.
