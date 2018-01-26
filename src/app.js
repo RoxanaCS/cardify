@@ -1,27 +1,36 @@
+const $ = require('jquery');
+
 $(document).ready(function() {
+  let imgHover = $('.imgHover');
+  cardify(imgHover);
 });
-cardify();
-// .imgHover es la clase que debe tener el contenedor que tenga las imágenes
-function cardify() {
+
+function cardify(container) {
   // Buscar todas las imagenes en el contenedor
-  let foundImg = $('.imgHover').find('img');
+  let foundImg = container.find('img');
   // envuelvo la imagen en un elemento figure
-  foundImg.wrap('<figure style="position: relative"></figure>');
+  foundImg.wrap('<figure class="cardifyFigure "style="position: relative"></figure>');
   // agrego el figcaption pero vacio
-  $('figure').append('<figcaption style="position: absolute; margin: 5em 5em; font-size: 150%; color: #FFF; text-align: center; display: block"></figcaption>');
-  foundImg.mouseover(function() {
+  $('figure').append('<figcaption style="position: absolute; display: block; text-align: center; font-size: 100%; color: #FFFF"></figcaption>');
+  hoverMouse($('figure'));
+  outMouse($('figure'));
+}
+function hoverMouse(image) {
+  image.mouseover(function() {
     // obtener el alt de la images y guardarlo
-    let attrAlt = $(this).attr('alt');
+    let attrAlt = $(this).children('img').attr('alt');
     // hacer que la imagen se oscurezca
-    let newImg = $(this).css('filter', 'brightness(0.1)');
-    // obtener el src de la imagen
-    let src = newImg.attr('src');
+    let newImg = $(this).children('img').css('filter', 'brightness(0.1)');
     // muestre el contenido del alt en el figcaption
-    return newImg + $(this).siblings('figcaption').append(attrAlt);
+    $(this).children('figcaption').append(attrAlt);
   });
-  // evento para que desapareza el efecto anterior
-  foundImg.mouseout(function() {
-    $(this).css('filter', 'brightness(1)');
+}
+function outMouse(image) {
+// evento para que desapareza el efecto anterior
+  image.mouseout(function() {
+    $(this).children('img').css('filter', 'brightness(1)');
     $('figcaption').html('');
   });
 }
+
+module.exports = cardify;
