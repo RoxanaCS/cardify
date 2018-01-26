@@ -10,7 +10,7 @@ global.navigator = {
   userAgent: 'node.js',
 };
 
-var $ = require('jquery');
+const $ = require('jquery');
 const CABDom = require('../src/app');
 
 describe('Función cardify', () => {

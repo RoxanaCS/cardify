@@ -8,6 +8,7 @@ $(document).ready(function() {
 function cardify(container) {
   // Buscar todas las imagenes en el contenedor
   let foundImg = container.find('img');
+  console.log(foundImg);
   // envuelvo la imagen en un elemento figure
   foundImg.wrap('<figure class="cardifyFigure "style="position: relative"></figure>');
   // agrego el figcaption pero vacio
