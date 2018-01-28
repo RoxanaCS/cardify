@@ -1,2 +1,2 @@
-const cardify = require('./src.app');
+const cardify = require('./src/app');
 module.exports = cardify;
