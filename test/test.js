@@ -13,9 +13,16 @@ const $ = require('jquery');
 const cardify = require('../src/app');
 
 describe('Función cardify', () => {
-  let imgHover = $('.containerFunction');
-  imgHover.cardify;
+  // ejecuto la función con el html que se creo mas arriba
+  $('.containerFunction').cardify;
+  // pruebo si efectivamente la función general el elemento figure al ejetutarse
   it('Se crea el elemento figure', () => {
-    chai.assert.exists($('.cardifyFigure'));
+    chai.assert.exists($('figure'));
+  });
+});
+describe('Función cardify', () => {
+  $('.containerFunction').cardify;
+  it('Se crea el elemento figcaption', () => {
+    chai.assert.exists($('figcaption'));
   });
 });
