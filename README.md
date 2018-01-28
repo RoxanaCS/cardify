@@ -17,7 +17,10 @@ Herramientas de desarrollo:
 
 Herramientas de producción:
 + Bootstrap v.3.3.7
-+ jQuery v.3.1.1
++ jQuery v.3.2.1
++ chai: v.4.1.2
++ mocha": v.5.0.0
++ jsdom": v.11.6.1
 
 Extra: Atom ESLint con la guía de estilos de Google para Laboratoria.
 
