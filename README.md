@@ -1,27 +1,41 @@
 # Cardify
 
+Cardify es una librería de jQuery que permite oscurecer una imagen y mostrar la información contenida en su atributo ```alt``` al pasar el cursor sobre ella (similar al efecto hover). Para ello, se debe asignar una clase al div contenedor de las imágenes en las cuales se requiere el efecto y llamar a la función de la siguiente forma:
 
-El reto consiste en crear una librería o plugin de jQuery que permita mostrar información al pasar el cursor sobre ella (similar al efecto hover). Lo anterior será ejecutado, en principio, mediante la utilizacion de una clase que permita elegir al usuario todas las imágenes en las que requiera aplicar este efecto.
-
-## Metodología de trabajo
-
-1. Metodología Scrum: Metodología Agile para coordinar el proyecto, basada en un tablero en donde se detalla la lista de tareas, cuáles están en progreso y cuáles han sido completadas. Contempla dailys y retropectivas.
-
-2. Herramienta de comunicación: Slack para enviar código y Skype para compartir pantalla de forma remota.
+```js
+// `container` es la clase del contenedor donde se buscarán todas las
+// imágenes a ser procesadas.
+$('.container').cardify();
+```
 
 ## Requerimientos técnicos
 
-El proyecto se realizará con las siguientes dependencias NPM:
+El proyecto se realizará con las siguientes tecnologías:
 
 Herramientas de desarrollo:
 + Control de versiones: GIT
-+ Editor de texto: ATOM
 
 Herramientas de producción:
 + Bootstrap v.3.3.7
-+ jQuery v.3.1.1
++ jQuery v.3.2.1
++ chai: v.4.1.2
++ mocha": v.5.0.0
++ jsdom": v.11.6.1
 
-Extra: Atom ESLint con la guía de estilos de Google para Laboratoria
+Extra: Atom ESLint con la guía de estilos de Google para Laboratoria.
 
+## Instalación
+
+### Global (navegador)
+
+```html
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="path-to-cardify.js"></script>
+```
+
+## Ejemplos
+
+proximamente
+...
 
 ***
