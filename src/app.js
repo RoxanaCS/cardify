@@ -10,9 +10,9 @@ $(document).ready(() => {
     // Buscar todas las imagenes en el contenedor
     let foundImg = this.find('img');
     // envuelvo la imagen en un elemento figure
-    foundImg.wrap('<figure "style="position: relative"></figure>');
+    foundImg.wrap('<figure class ="imgFigure" "style="position: relative"></figure>');
     // agrego el figcaption pero vacio
-    $('figure').append('<figcaption style="position: absolute; display: block; text-align: center; font-size: 100%; color: #FFFF"></figcaption>');
+    $('figure').append('<figcaption class="imgFigcaption" style="position: absolute; display: block; text-align: center; font-size: 100%; color: #FFFF"></figcaption>');
     hoverMouse($('figure'));
     outMouse($('figure'));
   };
