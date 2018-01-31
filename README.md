@@ -5,7 +5,7 @@ Cardify es una librería de jQuery que permite oscurecer una imagen y mostrar la
 ```js
 // `imgHover` es la clase del contenedor donde se buscarán todas las
 // imágenes a ser procesadas.
-$('.imgHover').cardify();
+$('.imgHover').cardify(); 
 ```
 
 ## Requerimientos técnicos
