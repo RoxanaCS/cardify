@@ -24,7 +24,6 @@ Herramientas de desarrollo:
 Herramientas de producción:
 + jQuery v.3.2.1
 
-
 Extra: Atom ESLint con la guía de estilos de Google para Laboratoria.
 
 ## Instalación

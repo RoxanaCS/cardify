@@ -19,6 +19,7 @@
   "dependencies": {
     "browserify": "^15.2.0",
     "chai": "^4.1.2",
+    "chai-jq": "0.0.9",
     "jquery": "^3.2.1",
     "jsdom": "^11.6.1"
   },
