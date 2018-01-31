@@ -1,7 +1,7 @@
 {
   "name": "cardify",
   "version": "1.0.0",
-  "description": "cualquier cosa",
+  "description": "Librería de jQuery que permite oscurecer una imagen y mostrar la información contenida en su atributo alt al pasar el cursor sobre ella.",
   "main": "lib/main.js",
   "scripts": {
     "test": "mocha --reporter list"
@@ -17,10 +17,8 @@
   },
   "homepage": "https://github.com/RoxanaCS/cardify#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "browserify": "^15.2.0",
     "chai": "^4.1.2",
-    "chai-dom": "^1.7.0",
     "jquery": "^3.2.1",
     "jsdom": "^11.6.1"
   },

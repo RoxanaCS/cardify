@@ -10,14 +10,14 @@ $(document).ready(() => {
     // Buscar todas las imagenes en el contenedor
     let foundImg = this.find('img');
     // envuelvo la imagen en un elemento figure
-    foundImg.wrap('<figure "style="position: relative"></figure>');
+    foundImg.wrap('<figure class ="imgFigure" style="position: relative; display:inline-block"></figure>');
     // agrego el figcaption pero vacio
-    $('figure').append('<figcaption style="position: absolute; display: block; text-align: center; font-size: 100%; color: #FFFF"></figcaption>');
+    $('figure').append('<figcaption class="imgFigcaption" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.5em; font-weight: bolder; text-align: center; color: #FFF"></figcaption>');
     hoverMouse($('figure'));
     outMouse($('figure'));
   };
   const hoverMouse = (image) => {
-    image.mouseover(function() { // ---------------------------------duda
+    image.mouseover(function() {
       // obtener el alt de la images y guardarlo
       let attrAlt = $(this).children('img').attr('alt');
       // hacer que la imagen se oscurezca
