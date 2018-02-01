@@ -58,4 +58,4 @@ https://aguerrav.github.io/demo-cardify/
 
 ![ejemplo-de-uso](https://media.giphy.com/media/xThtaygOxYCxhrKEgw/giphy.gif)
 
-![ejemplo-de-html](/assets/img/cardify.jpg)
+![ejemplo-de-html](/assets/img/cardifyimg.jpg)
