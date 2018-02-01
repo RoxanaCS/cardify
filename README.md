@@ -1,6 +1,17 @@
 # Cardify
 
-Cardify es una librería de jQuery que permite oscurecer una imagen y mostrar la información contenida en su atributo ```alt``` al pasar el cursor sobre ella (usando el evento mouseover). Para ello se debe asignar la clase ```imgHover``` al div contenedor de las imágenes en las cuales se requiere el efecto:
+Cardify es una librería de jQuery que te permite sobreponer texto en una imagen al pasar el mouse sobre ella.
+
+## Características:
+
+- [x] Utiliza el evento mouseover.
+- [x] Cambia el brillo de la imagen, oscureciéndola.
+- [x] Muestra el contenido de su atributo ```alt```.
+- [x] Permite utilizar cualquier extensión de imagen (.png, .gif, .jpg, entre otras).
+
+## Uso
+
+Para utilizar este plugin debes asignar la clase ```imgHover``` al div contenedor de las imágenes en las cuales se requiere el efecto:
 
 ```html
 
@@ -29,7 +40,7 @@ Extra: Atom ESLint con la guía de estilos de Google para Laboratoria.
 
 ## Instalación
 
-- Descarga el ropositorio github.
+- Descarga este repositorio github.
 
 - Enlaza jQuery en tu proyecto y el archivo main.js en la carpeta lib.
 
@@ -37,6 +48,15 @@ Extra: Atom ESLint con la guía de estilos de Google para Laboratoria.
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="./lib/main.js"></script>
 ```
-![](assets\img\imagen.png)
+![carpeta](/assets/img/imagen.png)
 
-## Ejemplos
+## Demo
+
+https://aguerrav.github.io/demo-cardify/
+
+## Ejemplos de uso
+
+![ejemplo-de-uso](https://media.giphy.com/media/xThtaygOxYCxhrKEgw/giphy.gif)
+![ejemplo-de-uso](/assets/img/cardify.png)
+
+
