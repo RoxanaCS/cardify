@@ -1,1 +1,26 @@
+body{
+background-image: url(https://wallpaperlovez.com/wp-content/uploads/Dark-Light-Wallpaper-Abstract-Wallpapers.-Photo-Dark-Wallpaper.jpg);
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+.jumbo{
+  background: linear-gradient(rgba(6,60,60,0.3),rgba(0,0,0,0.3));
+  color:  #c8e6c9;
+  text-align: center;
 
+}
+.center-down{
+  text-align: center;
+  color:  #c8e6c9;
+}
+pre {
+  white-space: normal;
+  white-space: -moz-pre-wrap; /* Mozilla */
+  white-space: -o-pre-wrap; /* Opera 7+ */
+
+}
+h2{
+  color: #c8e6c9;;
+  text-align: center;
+}

@@ -9,9 +9,9 @@
     <link rel="stylesheet" href=".\assets\css\main.css">
   </head>
   <body>
-    <div class="jumbotron container">
+    <div class="jumbotron container jumbo">
       <h1>Cardify</h1>
-      <h3>Una libreria que te permite obtener el titulo de la imagen con solo utilizar una clase</h3>
+      <h3>Una libreria que te permite sobreponer texto en la imagen, al pasar el mouse sobre ella</h3>
     </div>
     <div class="container imgHover">
       <div class="row">
@@ -22,19 +22,48 @@
           <img  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="https://cdn.pixabay.com/photo/2017/12/02/14/35/mushroom-2992999_960_720.jpg" alt="Mushroom">
         </div>
       </div>
+      <div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2>Tambien funciona con archivos de extension .gif</h2>
+          </div>
+      </div>
       <div class="row ">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
-          <img  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="https://cdn.pixabay.com/photo/2017/06/15/10/25/summer-2404769_960_720.jpg" alt="Summer">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+          <img  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="https://media.giphy.com/media/SRO0ZwmImic0/giphy.gif" alt="happy birthday!">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" >
-          <img  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="http://i1334.photobucket.com/albums/w645/PegGTS/ba2_zpsaijsw5nf.gif" alt="Car Tuning" >
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+          <img  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="https://media.giphy.com/media/3oKIPAC3m3t5Aa3Y1a/giphy.gif" alt="I like it!" >
         </div>
-
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" >
+          <img  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" src="https://media.giphy.com/media/3oFzms9ePB1MOMo2ek/giphy.gif" alt="hey babe!">
+        </div>
       </div>
     </div>
+    <div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2>Modo de uso</h2>
+        </div>
+    </div>
+    </div>
     <div class="container center-down">
-      <h3>Download </h3>
-      <p><a class="btn btn-primary btn-lg cnter" href="https://github.com/RoxanaCS/cardify" role="button">github</a></p>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+          <h3>Download </h3>
+          <p><a class="btn btn-lg btn-success" href="https://github.com/RoxanaCS/cardify" role="button">github</a></p>
+        </div>
+        <div class=" container-fluid col-xs-12 col-sm-12 col-md-9 col-lg-9">
+          <h3></h3>
+          <pre>-Descarga el ropositorio github <br>
+            -Enlaza jQuery en tu proyecto y el archivo main.js en la carpeta lib <br>
+            -Usa la clase 'imgHover' en el contenerdor de tu imagen
+
+            <code class="container-fluid">&lt;script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"&gt;&lt;/script&gt;<hr>&lt;script type="text/javascript" src="./lib/main.js"&gt;&lt;/script&gt;<hr>&lt;div class='imgHover'&gt;&lt;img&gt;src="ruta-imagen" alt="frase que se muestra al pasar el mouse"&lt;/img&gt;&lt;/div&gt;</code>
+          </pre>
+
+        </div>
+      </div>
     </div>
     <script type="text/javascript" src=".\node_modules\jquery\dist\jquery.min.js"></script>
     <script type="text/javascript" src="./lib/main.js"></script>
