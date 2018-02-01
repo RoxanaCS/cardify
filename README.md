@@ -19,7 +19,7 @@ Para utilizar este plugin debes asignar la clase ```imgHover``` al div contenedo
 
 ```
 
-## Requerimientos técnicos
+## Especificaciones técnicas
 
 El proyecto se realizó con las siguientes tecnologías:
 
