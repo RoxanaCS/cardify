@@ -37,5 +37,6 @@ Extra: Atom ESLint con la guía de estilos de Google para Laboratoria.
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="./lib/main.js"></script>
 ```
+![](assets\img\imagen.png)
 
 ## Ejemplos

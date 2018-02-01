@@ -7,7 +7,7 @@ $(document).ready(() => {
 
 (function($) {
   $.fn.cardify = function() {
-    // Buscar todas las imagenes en el contenedor
+    // Buscar todas las imágenes en el contenedor
     let foundImg = this.find('img');
     // envuelvo la imagen en un elemento figure
     foundImg.wrap('<figure class ="imgFigure" style="position: relative; display:inline-block"></figure>');
