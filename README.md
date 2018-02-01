@@ -42,7 +42,7 @@ Extra: Atom ESLint con la guía de estilos de Google para Laboratoria.
 
 - Descarga este repositorio github.
 
-- Enlaza jQuery en tu proyecto y el archivo main.js en la carpeta lib.
+- Enlaza el archivo main.js que se encuentra dentro de la carpeta lib.
 
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -59,5 +59,3 @@ https://aguerrav.github.io/demo-cardify/
 ![ejemplo-de-uso](https://media.giphy.com/media/xThtaygOxYCxhrKEgw/giphy.gif)
 
 ![ejemplo-de-html](/assets/img/cardify.jpg)
-
-
